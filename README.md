@@ -2,51 +2,60 @@
 
 ![Airbnb](https://img.shields.io/badge/Airbnb-%23FF5A5F.svg?style=for-the-badge&logo=Airbnb&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-**Final Project** for the **IBM Data Analysis Professional Certificate**
+**Final Capstone Project** | IBM Data Analysis Professional Certificate
 
 ---
 
 ## 📋 Project Overview
 
-Complete **Exploratory Data Analysis (EDA)** of the Airbnb market in New York City, focusing on data cleaning, pricing patterns, neighbourhood analysis, and business insights.
+This project presents a complete **Exploratory Data Analysis (EDA)** of the Airbnb market in New York City. Starting from a raw dataset, the analysis includes data cleaning, preprocessing, visualization, and the extraction of meaningful business insights regarding pricing patterns, room types, and neighbourhood performance.
 
 ---
 
 ## 🎯 Objectives
 
-- Data cleaning and preprocessing
-- Pricing analysis by room type and borough
-- Neighbourhood performance evaluation
-- Extraction of actionable insights
+- Assess data quality and perform thorough cleaning (missing values, duplicates, inconsistencies)
+- Standardize column names and data formats
+- Analyze pricing dynamics across room types and boroughs
+- Identify the most active and profitable neighbourhoods
+- Extract actionable insights for hosts and market stakeholders
 
-## 🛠 Tools & Libraries
+---
 
-- Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
+## 🛠 Tools & Technologies
+
+- **Python**
+- **Pandas** & **NumPy** — Data manipulation
+- **Matplotlib** & **Seaborn** — Data visualization
+- **Jupyter Notebook**
 
 ---
 
 ## 📈 Key Insights
 
-- **Queens** shows the highest average price in this dataset.
-- **Entire homes/apartments** are significantly more expensive.
-- Almost perfect correlation (0.99) between price and service fee.
-- Listings are heavily concentrated in Brooklyn and Manhattan.
+- **Queens** surprisingly shows the highest average listing price, followed by Bronx and Brooklyn.
+- **Entire homes/apartments** are significantly more expensive than private and shared rooms.
+- Extremely strong positive correlation (**~0.99**) between `price` and `service_fee`.
+- Listings are heavily concentrated in a few popular neighbourhoods (Williamsburg, Bedford-Stuyvesant, Harlem, etc.).
+- The dataset was relatively clean after preprocessing, with no extreme price outliers detected.
 
 ---
 
-## 📁 Repository Contents
+## 📁 Repository Structure
+airbnb-nyc-analysis/
+├── airbnb_nyc_analysis.ipynb          # Main Jupyter Notebook
+├── README.md
+├── certificate.png
+└── Airbnb_Open_Data.csv               # Original dataset
 
-- `airbnb_nyc_analysis.ipynb` — Main Jupyter Notebook
-- `Airbnb_Open_Data.csv` — Dataset
-- `images/` — Screenshots of visualizations
-- `certificate.png` — IBM Certificate
 
 ---
 
 ## 📜 Certification
 
-**IBM Data Analysis Professional Certificate**
+**IBM Data Analysis Professional Certificate** - Final Project
 
 ![IBM Certificate](certificate.png)
 
@@ -54,4 +63,10 @@ Complete **Exploratory Data Analysis (EDA)** of the Airbnb market in New York Ci
 
 ---
 
-**Author:** Alessandro Benevelli
+## 👤 Author
+
+**Alessandro Benevelli**
+
+---
+
+**Feel free to explore the notebook and reach out if you have any questions!**
