@@ -1,64 +1,84 @@
-# IBM Final Project - Airbnb Data Analysis
+# Airbnb New York City - Exploratory Data Analysis
 
-This project presents an exploratory data analysis of Airbnb listings in New York City. It was developed as an IBM final project and focuses on data cleaning, transformation, and visualization using Python.
+![Airbnb](https://img.shields.io/badge/Airbnb-%23FF5A5F.svg?style=for-the-badge&logo=Airbnb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-## Project overview
+**Final Project** for the **IBM Data Analysis Professional Certificate**
 
-The analysis is based on an Airbnb open dataset containing information about listings, neighbourhoods, room types, prices, availability, reviews, and service fees. The main goal of the project is to transform raw data into a structured analytical workflow and extract useful insights through exploratory data analysis.
+---
 
-## Objectives
+## 📋 Project Overview
 
-- Load and inspect the dataset
-- Clean missing and duplicated values
-- Standardize and transform column names and formats
-- Explore pricing patterns across room types and neighbourhoods
-- Visualize relationships between relevant variables
-- Summarize the main findings of the analysis
+This project presents a complete **Exploratory Data Analysis (EDA)** of the Airbnb market in New York City. Starting from a raw dataset, the analysis covers data cleaning, feature standardization, visualization, and the extraction of meaningful business insights.
 
-## Project workflow
+The main focus is on understanding **pricing patterns**, **room type distribution**, **neighbourhood differences**, and key factors affecting listing performance.
 
-The notebook follows these main steps:
+---
 
-1. Data loading and initial inspection
-2. Missing values analysis and treatment
-3. Duplicate detection and removal
-4. Data transformation and standardization
-5. Exploratory data visualization
-6. Final conclusions
+## 🎯 Objectives
 
-## Tools and libraries
+- Perform thorough data cleaning and preprocessing
+- Analyze pricing dynamics across room types and boroughs
+- Identify high-performing neighbourhoods and market trends
+- Extract actionable insights for hosts and stakeholders
+- Demonstrate end-to-end data analysis skills
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+---
 
-## Dataset
+## 🛠 Tools & Libraries
 
-The dataset used in this project is based on Airbnb open data for New York City and includes listing-level information such as neighbourhood, room type, price, service fee, reviews, and availability.
+- **Python**
+- **Pandas** – Data manipulation
+- **NumPy** – Numerical operations
+- **Matplotlib & Seaborn** – Data visualization
+- **Jupyter Notebook**
 
-Original dataset source:  
-[Airbnb Open Data on Kaggle](https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata)
+---
 
-## Repository contents
+## 📊 Key Insights
 
-- `Untitled-2.ipynb` — final Jupyter Notebook
-- `Airbnb_Open_Data.csv` — dataset used for the analysis
-- `certificate.png` — IBM completion certificate image
+- **Queens** has the highest average listing price in the dataset, followed by Bronx and Brooklyn.
+- **Entire homes/apartments** are significantly more expensive than private and shared rooms.
+- There is an **extremely strong correlation** (~0.99) between price and service fee.
+- Listings are heavily concentrated in a few popular neighbourhoods (Williamsburg, Bedford-Stuyvesant, Harlem).
+- No extreme price outliers were detected after cleaning.
 
-## Certification and badge
+---
 
-This project is associated with the completion of an IBM Data Analytics final project.
+## 📁 Repository Contents
 
-### Completion certificate
+- `airbnb_nyc_analysis.ipynb` – Main Jupyter Notebook
+- `Airbnb_Open_Data.csv` – Original dataset
+- `certificate.png` – IBM Completion Certificate
+
+---
+
+## 🖼️ Visualizations
+
+*(You can add 2-3 screenshots here later)*
+
+<!-- 
+![Price Distribution](images/price_distribution.png)
+![Top Neighbourhoods](images/top_neighbourhoods.png)
+-->
+
+---
+
+## 📜 Certification
+
+**IBM Data Analysis Professional Certificate** - Final Project
 
 ![IBM Certificate](certificate.png)
 
-### Credly badge
+[View Credly Badge](https://www.credly.com/badges/94cd09c5-fbca-466d-b6a5-b38ac423fbeb/linked_in?t=s3wbqe)
 
-[View the badge on Credly](https://www.credly.com/badges/94cd09c5-fbca-466d-b6a5-b38ac423fbeb/linked_in?t=s3wbqe)
+---
 
-## Author
+## 👤 Author
 
-Alessandro Benevelli
+**Alessandro Benevelli**
+
+---
+
+**Feel free to explore the notebook and reach out if you have any questions!**
