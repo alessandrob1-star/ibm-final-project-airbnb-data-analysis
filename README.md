@@ -45,7 +45,7 @@ This project presents a complete **Exploratory Data Analysis (EDA)** of the Airb
 
 ## 📁 Repository Structure
 
-```bash
+
 airbnb-nyc-analysis/
 ├── airbnb_nyc_analysis.ipynb          # Main Jupyter Notebook
 ├── README.md
