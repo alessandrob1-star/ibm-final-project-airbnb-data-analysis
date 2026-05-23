@@ -20,18 +20,6 @@ Complete **Exploratory Data Analysis (EDA)** of the Airbnb market in New York Ci
 - Neighbourhood performance evaluation
 - Extraction of actionable insights
 
----
-
-## 📊 Key Visualizations
-
-| ![Price Distribution by Room Type](images/price_by_room_type.png) |
-| ![Top Expensive Neighbourhoods](images/top_expensive_neighbourhoods.png) | Top 10 most expensive neighbourhoods |
-| ![Correlation Heatmap](images/correlation_heatmap.png) | Correlation between numerical variables |
-| ![Top Neighbourhoods by Listings](images/top_neighbourhoods_listings.png) | Most popular neighbourhoods by listing count |
-| ![Price Distribution](images/price_distribution.png) | Overall price distribution |
-
----
-
 ## 🛠 Tools & Libraries
 
 - Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
