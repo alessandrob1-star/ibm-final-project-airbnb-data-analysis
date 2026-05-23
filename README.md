@@ -2,7 +2,6 @@
 
 ![Airbnb](https://img.shields.io/badge/Airbnb-%23FF5A5F.svg?style=for-the-badge&logo=Airbnb&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 **Final Project** for the **IBM Data Analysis Professional Certificate**
 
@@ -10,64 +9,58 @@
 
 ## 📋 Project Overview
 
-This project presents a complete **Exploratory Data Analysis (EDA)** of the Airbnb market in New York City. Starting from a raw dataset, the analysis covers data cleaning, feature standardization, visualization, and the extraction of meaningful business insights.
-
-The main focus is on understanding **pricing patterns**, **room type distribution**, **neighbourhood differences**, and key factors affecting listing performance.
+Complete **Exploratory Data Analysis (EDA)** of the Airbnb market in New York City, focusing on data cleaning, pricing patterns, neighbourhood analysis, and business insights.
 
 ---
 
 ## 🎯 Objectives
 
-- Perform thorough data cleaning and preprocessing
-- Analyze pricing dynamics across room types and boroughs
-- Identify high-performing neighbourhoods and market trends
-- Extract actionable insights for hosts and stakeholders
-- Demonstrate end-to-end data analysis skills
+- Data cleaning and preprocessing
+- Pricing analysis by room type and borough
+- Neighbourhood performance evaluation
+- Extraction of actionable insights
+
+---
+
+## 📊 Key Visualizations
+
+| Visualization | Description |
+|---------------|-----------|
+| ![Price by Room Type](images/price_by_room_type.png) | Price distribution by room type |
+| ![Top Expensive Neighbourhoods](images/top_expensive_neighbourhoods.png) | Top 10 most expensive neighbourhoods |
+| ![Correlation Heatmap](images/correlation_heatmap.png) | Correlation between numerical variables |
+| ![Top Neighbourhoods by Listings](images/top_neighbourhoods_listings.png) | Most popular neighbourhoods by listing count |
+| ![Price Distribution](images/price_distribution.png) | Overall price distribution |
 
 ---
 
 ## 🛠 Tools & Libraries
 
-- **Python**
-- **Pandas** – Data manipulation
-- **NumPy** – Numerical operations
-- **Matplotlib & Seaborn** – Data visualization
-- **Jupyter Notebook**
+- Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
 ---
 
-## 📊 Key Insights
+## 📈 Key Insights
 
-- **Queens** has the highest average listing price in the dataset, followed by Bronx and Brooklyn.
-- **Entire homes/apartments** are significantly more expensive than private and shared rooms.
-- There is an **extremely strong correlation** (~0.99) between price and service fee.
-- Listings are heavily concentrated in a few popular neighbourhoods (Williamsburg, Bedford-Stuyvesant, Harlem).
-- No extreme price outliers were detected after cleaning.
+- **Queens** shows the highest average price in this dataset.
+- **Entire homes/apartments** are significantly more expensive.
+- Almost perfect correlation (0.99) between price and service fee.
+- Listings are heavily concentrated in Brooklyn and Manhattan.
 
 ---
 
 ## 📁 Repository Contents
 
-- `airbnb_nyc_analysis.ipynb` – Main Jupyter Notebook
-- `Airbnb_Open_Data.csv` – Original dataset
-- `certificate.png` – IBM Completion Certificate
-
----
-
-## 🖼️ Visualizations
-
-*(You can add 2-3 screenshots here later)*
-
-<!-- 
-![Price Distribution](images/price_distribution.png)
-![Top Neighbourhoods](images/top_neighbourhoods.png)
--->
+- `airbnb_nyc_analysis.ipynb` — Main Jupyter Notebook
+- `Airbnb_Open_Data.csv` — Dataset
+- `images/` — Screenshots of visualizations
+- `certificate.png` — IBM Certificate
 
 ---
 
 ## 📜 Certification
 
-**IBM Data Analysis Professional Certificate** - Final Project
+**IBM Data Analysis Professional Certificate**
 
 ![IBM Certificate](certificate.png)
 
@@ -75,10 +68,4 @@ The main focus is on understanding **pricing patterns**, **room type distributio
 
 ---
 
-## 👤 Author
-
-**Alessandro Benevelli**
-
----
-
-**Feel free to explore the notebook and reach out if you have any questions!**
+**Author:** Alessandro Benevelli
