@@ -46,7 +46,7 @@ This project presents a complete **Exploratory Data Analysis (EDA)** of the Airb
 
 ## 📜 Certification
 
-**IBM Data Analysis Professional Certificate** - Final Project
+**IBM Data Analysis** - Final Project
 
 ![IBM Certificate](certificate.png)
 
