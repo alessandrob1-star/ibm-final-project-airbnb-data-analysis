@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-**Final Capstone Project** | IBM Data Analysis Professional Certificate
+**Final Capstone Project** | IBM Programme in Data Analytics 
 
 ---
 
