@@ -36,6 +36,7 @@ This project presents a complete **Exploratory Data Analysis (EDA)** of the Airb
 ## 📈 Key Insights
 
 - **Queens** surprisingly shows the highest average listing price, followed by Bronx and Brooklyn.
+- Price differences across boroughs are relatively small, so this result should be interpreted with caution and may reflect dataset limitations rather than actual market pricing.
 - **Entire homes/apartments** are significantly more expensive than private and shared rooms.
 - Extremely strong positive correlation (**~0.99**) between `price` and `service_fee`.
 - Listings are heavily concentrated in a few popular neighbourhoods (Williamsburg, Bedford-Stuyvesant, Harlem, etc.).
